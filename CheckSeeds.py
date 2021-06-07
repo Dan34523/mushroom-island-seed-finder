@@ -35,9 +35,9 @@ def save_seed():
 
 
 def check_seed():
-    im = pyautogui.screenshot(region=(765, 446, 345, 345))
-    for x in range(345):
-        for y in range(345):
+    im = pyautogui.screenshot(region=(810, 491, 255, 255))
+    for x in range(255):
+        for y in range(255):
             if im.getpixel((x, y)) == (255, 0, 255):
                 save_seed()
                 return
@@ -52,7 +52,7 @@ listener.start()
 pyautogui.moveTo(200, 540)
 pyautogui.click()
 
-for _ in range(1000):
+for _ in range(5000):
     if check:
         check_seed()
         new_seed()
