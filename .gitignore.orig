@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm files
+<<<<<<< HEAD
+.idea/
+=======
+.idea/
+Screenshots/
+>>>>>>> 787b26e24d3e9f4a8c4617951eebc592a19fd47f
